@@ -1,0 +1,10 @@
+{
+  "name": "blog2025",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Quarto academic blog",
+  "license": "MIT",
+  "devDependencies": {
+    "@quarto/netlify-plugin-quarto": "^0.0.5"
+  }
+}

@@ -1,0 +1,8 @@
+[[plugins]]
+package = "@quarto/netlify-plugin-quarto"
+
+[build]
+  # Render the Quarto site during the Netlify build
+  command = "quarto render"
+  # Directory where the rendered site will be published
+  publish = "docs"
