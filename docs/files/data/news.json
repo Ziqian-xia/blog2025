@@ -3,5 +3,21 @@
     "date": "2025-09-08",
     "text": "Arrived in Palo Alto and setting up the new lab website.",
     "url": "news.html#2025-09-08"
+  },
+  {
+    "date": "2025-08-20",
+    "text": "🎉 Our paper *Growing climate change risk concerns with rising regional disparities in China* is now published in npj Climate Action — open access, hooray!",
+    "url": "https://rdcu.be/eBt7r",
+    "links": [
+      { "text": "Read it here", "href": "https://rdcu.be/eBt7r" }
+    ]
+  },
+  {
+    "date": "2025-07-01",
+    "text": "🚀 Our paper *Promoting plant-based diet in China* is officially out in *Sustainable Production & Consumption*. Free access link available — hooray!",
+    "url": "https://authors.elsevier.com/a/1lMbU8Mw7oCsAC",
+    "links": [
+      { "text": "Read it here", "href": "https://authors.elsevier.com/a/1lMbU8Mw7oCsAC" }
+    ]
   }
 ]
