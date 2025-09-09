@@ -1,0 +1,19 @@
+/* Make primary = Stanford cardinal, for both light/dark schemes */
+:root, [data-bs-theme="light"], [data-bs-theme="dark"] {
+  --bs-primary: #8C1515;
+  --bs-primary-rgb: 140,21,21;
+  --bs-link-color: #8C1515;
+  --bs-link-hover-color: #7a1212;
+}
+
+/* Belt & suspenders in case theme hardcodes bg-primary */
+.navbar.bg-primary { background-color: #8C1515 !important; }
+
+/* Readable navbar text + hover */
+.navbar .navbar-brand,
+.navbar .nav-link { color: #fff !important; }
+.navbar .nav-link:hover,
+.navbar .nav-link:focus { color: #B3995D !important; text-decoration: underline; }
+
+/* Logo slot (replace this file) */
+.navbar-brand img { max-height: 36px; height: 36px; width: auto; }

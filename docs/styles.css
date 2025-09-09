@@ -1,1 +1,54 @@
-/* css styles */
+/* ===============================
+   NAVBAR: logo size + spacing
+   =============================== */
+
+/* Bigger logo */
+.navbar-brand img,
+.navbar .navbar-brand img {
+  height: 56px;          /* try 48–64 if you want different */
+  max-height: 56px;
+  width: auto;
+}
+
+/* Turn the brand into a flex row with a visible gap */
+.navbar .navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;          /* <— gap between logo and text */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Make brand text look deliberate */
+.navbar .navbar-brand .navbar-title {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+/* Give the bar a touch more height so the bigger logo breathes */
+.navbar {
+  min-height: 68px;
+  border-bottom: 1px solid rgba(0,0,0,.06); /* subtle anchor line */
+}
+
+/* Responsive: slightly smaller logo on very small screens */
+@media (max-width: 420px) {
+  .navbar-brand img { height: 44px; max-height: 44px; }
+}
+
+/* Gap between logo (brand) and the leftmost nav links */
+.navbar .navbar-brand { 
+  margin-right: 1.25rem !important;   /* tweak to taste */
+}
+
+/* Give a bit more space on larger screens */
+@media (min-width: 992px) {
+  .navbar .navbar-brand {
+    margin-right: 2rem !important;
+  }
+}
+
+/* (Optional) tiny space between the logo image and any brand text */
+.navbar-brand img {
+  margin-right: .5rem;
+}

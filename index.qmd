@@ -1,10 +1,9 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
+title: "Ziqian Xia"
+description-meta: "Personal website for Ziqian Xia"
+image: "files/images/avatar.JPG"
 page-navigation: false
 toc: false
-#sidebar: false
 page-layout: full
 
 about:
@@ -12,95 +11,86 @@ about:
   template: trestles
   image-width: 70%
   links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
-      target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
     - icon: envelope
-      text: E-mail
-      href: mailto:email@gmail.com    
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-      target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
-      target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
+      text: Email
+      href: mailto:ziqianx@stanford.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/ziqian-xia
       target: _blank
     - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
+      href: https://scholar.google.com/citations?user=dyNjCrIAAAAJ
       target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
-
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
-  - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort: 
-      - "date desc"
-      - "title asc"
+    - text: "{{< fa brands x-twitter >}} Twitter"
+      href: https://twitter.com/ziqian_xia
+      target: _blank
 ---
 
 :::{#hero-heading}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+Hi there, I’m **Ziqian Xia**, a Ph.D. student in Environmental Behavioral Sciences at
+[Stanford University](https://www.stanford.edu/) and visiting researcher at the
+[Cambridge Collective Intelligence & Design Group (CamCID)](https://camcid.github.io/),
+University of Cambridge.
+I study the **human and policy dimensions of climate change**, combining large-scale surveys,
+IoT and remote sensing for **actionable mitigation and adaptation**.
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+- Climate perceptions & individual carbon footprints in China (MRP/MIRO; **China Climate Communication Initiative**).
+- Behavioral interventions and IoT-enabled measurement for mitigation/adaptation.
+- Open and transparent science; cross-national datasets and policy relevance.
 
-1. **Star** this repository to bookmark it for future reference.  
-1. **Fork** this repository and rename it to `YourGitHubUserName.github.io`.  
-1. **Update** the `_quarto.yml` file to configure your site’s basic settings.  
-1. **Add or edit content** in the following files and folders:
-   - `/posts/` – posts about publications, news, events  
-   - `teaching.qmd` – teaching information  
-   - `projects.yml` – research or other projects  
-   - `people.qmd` and `/people/` – team or collaborators  
-   - `/files/` - profiles, images, pdfs, and includes 
-1. [**Render and preview**](https://quarto.org/docs/websites/) your site locally.  
-1. [**Publish**](https://quarto.org/docs/publishing/github-pages.html) your site using GitHub Pages (make sure [configuring](https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png) your GitHub repository to publish from the `docs` directory, not the `root` folder). 
-1. **Refine and polish** your content and design as needed.  
-1. ✅ Enjoy your new website!
-
-## Experience
-
-- Researcher, Univerisity
-
-## Education
-
-- PhD, Univerisity
+Prior to Stanford, I trained with [Chao Zhang’s Group](https://sem.tongji.edu.cn/semen/12413.html) at Tongji University, China, [Xi Tian’s Group](http://sem.ncu.edu.cn/szdw/gccrc/gccrcjxssqjhljrc/799a668ea7be430c9edb199b04109392.htm) at Nanchang University, China, and the [Bits to Energy Lab](https://www.digitaltransformation.rw.fau.eu/) at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Germany.
 
 :::
 
+## News (latest)
 
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
+<div id="news-latest" class="list-group mb-2"></div>
+<p class="mb-4">
+  <a href="news.html" class="btn btn-sm btn-outline-primary">All news</a>
+</p>
 
-:::{#recent-posts}
-:::
+<script>
+  (function () {
+    const NEWS_PATH = "files/data/news.json"; // relative to site root
+    const MAX_ITEMS = 3;
 
-<p align="right">[All Posts »](/posts.qmd)</p>
+    fetch(NEWS_PATH, {cache: "no-cache"})
+      .then(r => r.json())
+      .then(items => {
+        const container = document.getElementById("news-latest");
+        if (!Array.isArray(items) || !container) return;
+
+        items.slice(0, MAX_ITEMS).forEach(i => {
+          const a = document.createElement("a");
+          a.className = "list-group-item list-group-item-action d-flex justify-content-between align-items-center";
+          a.href = i.url || "news.html";
+          a.innerHTML = `<span>${i.date} — ${i.text}</span>`;
+          container.appendChild(a);
+        });
+
+        if (container.children.length === 0) {
+          const li = document.createElement("div");
+          li.className = "list-group-item";
+          li.textContent = "No updates yet.";
+          container.appendChild(li);
+        }
+      })
+      .catch(err => {
+        console.error("News load error:", err);
+        const container = document.getElementById("news-latest");
+        if (container) {
+          const li = document.createElement("div");
+          li.className = "list-group-item";
+          li.textContent = "News temporarily unavailable.";
+          container.appendChild(li);
+        }
+      });
+  })();
+</script>
+
+
+
+
+
+

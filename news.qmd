@@ -1,0 +1,71 @@
+---
+title: "News"
+description-meta: "One-line updates"
+title-block-banner: false
+---
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h2 class="m-0">All updates</h2>
+  <a href="files/data/news.json" class="btn btn-sm btn-outline-secondary" target="_blank">View data (JSON)</a>
+</div>
+
+<div id="news-archive" class="list-group"></div>
+
+<script>
+  (function () {
+    const NEWS_PATH = "files/data/news.json"; // relative to site root
+
+    function renderLinks(links) {
+      if (!Array.isArray(links) || links.length === 0) return "";
+      return ' · ' + links.map(l => {
+        const href = l.href || l.url || "#";
+        const text = l.text || "link";
+        return `<a href="${href}" target="_blank" rel="noopener">${text}</a>`;
+      }).join(' · ');
+    }
+
+    fetch(NEWS_PATH, {cache: "no-cache"})
+      .then(r => r.json())
+      .then(items => {
+        const container = document.getElementById("news-archive");
+        if (!Array.isArray(items) || !container) return;
+
+        items.forEach(i => {
+          const div = document.createElement("div");
+          div.className = "list-group-item";
+          const id = i.date ? i.date : "";
+          if (id) div.id = id; // deep link target
+
+          let links = renderLinks(i.links);
+          if (!links && i.url) {
+            links = ' · ' + `<a href="${i.url}" target="_blank" rel="noopener">details</a>`;
+          }
+
+          div.innerHTML = `<strong>${i.date || ""}</strong> — ${i.text || ""}${links}`;
+          container.appendChild(div);
+        });
+
+        if (container.children.length === 0) {
+          const li = document.createElement("div");
+          li.className = "list-group-item";
+          li.textContent = "No updates yet.";
+          container.appendChild(li);
+        }
+      })
+      .catch(err => {
+        console.error("News load error:", err);
+        const container = document.getElementById("news-archive");
+        if (container) {
+          const li = document.createElement("div");
+          li.className = "list-group-item";
+          li.textContent = "News temporarily unavailable.";
+          container.appendChild(li);
+        }
+      });
+  })();
+</script>
+
+<!-- Maintenance tip
+- Add new entries to files/data/news.json at the TOP of the array.
+- Fields: date (YYYY-MM-DD), text, url (optional), links (optional array of {text, href}).
+-->

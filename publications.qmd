@@ -1,34 +1,233 @@
 ---
 title: "Publications"
-description-meta: "Information, pdfs, and social metrics of papers"
-#page-layout: full
-#back-to-top-navigation: true
+description-meta: "Selected publications by Ziqian Xia"
 title-block-banner: false
-css: custom.css
+---
+
+<!-- Top links -->
+<div class="d-flex flex-wrap gap-2 mb-3">
+  <a class="btn btn-sm btn-outline-primary" href="https://scholar.google.com/citations?user=dyNjCrIAAAAJ&sortby=pubdate" target="_blank">Google Scholar</a>
+</div>
+
+
+
+::: {.callout-tip collapse="false" icon=true}
+## Highlights (recent)
+
+- **Growing climate change risk concerns with rising regional disparities in China.** <span class="badge bg-light text-dark">npj Climate Action (2025)</span>  
+  **Xia, Z.\***, Ye, J., Debnath, R., Dong, X., Xie, J., Xu, M., … & Liu, M.
+
+- **Evaluating carbon footprint calculators: a comprehensive assessment framework.** <span class="badge bg-light text-dark">Clean Technologies & Environmental Policy (2025)</span>  
+  **Xia, Z.\***, Liu, K., Li, J., Gu, Y., Hu, B., Zhong, Y., … & Lam, K. L.
+
+- **Promoting plant-based diet in China: testing health, environmental and animal-welfare messages.** <span class="badge bg-light text-dark">Sustainable Production & Consumption (2025)</span>  
+  Shi, K., **Xia, Z.\***, Gu, H., & Nisa, C. <span class="badge bg-secondary">Co-first</span>
+
+\* Lead/corresponding contribution where applicable.
+:::
+
+---
+
+#### Notes
+- **Preprints:** I generally share preprints or accepted manuscripts where publisher policy allows. If you need a copy, feel free to email me.  
+- For the full and most up-to-date list, see my
+[Google Scholar profile](https://scholar.google.com/citations?user=dyNjCrIAAAAJ&sortby=pubdate). The list below is updated occasionally, and preprints are not listed.
+
+---
+
+### 2025
+
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">
+    <strong>Growing climate change risk concerns with rising regional disparities in China.</strong>
+    <br><em>npj Climate Action</em> 4(1), 78 (2025).  
+    <span class="text-muted">Xia, Z.*; Ye, J.; Debnath, R.; Dong, X.; Xie, J.; Xu, M.; …; Liu, M.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Evaluating carbon footprint calculators: a comprehensive assessment framework.</strong>
+    <br><em>Clean Technologies and Environmental Policy</em> (2025).  
+    <span class="text-muted">Xia, Z.*; Liu, K.; Li, J.; Gu, Y.; Hu, B.; Zhong, Y.; …; Lam, K. L.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Promoting plant-based diet in China: Testing health, environmental and animal-welfare motivational messages.</strong>
+    <br><em>Sustainable Production and Consumption</em> (2025). <span class="badge bg-secondary">Co-first</span>  
+    <span class="text-muted">Shi, K.; <strong>Xia, Z.*</strong>; Gu, H.; Nisa, C.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Hybrid multi-stage steel footprinting unveils a more interdependent material foundation of the global economy.</strong>
+    <br><em>Ecological Economics</em> 227, 108408 (2025).  
+    <span class="text-muted">Li, X.; Zhang, C.; Yang, X.; <strong>Xia, Z.</strong>; Cao, Z.; Wang, P.; …; Chen, W. Q.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Elderly population migration and urban energy consumption: Voluntary relocation or forced displacement?</strong>
+    <br><em>Energy Economics</em> 108725 (2025).  
+    <span class="text-muted">Lee, C. C.; Li, J.; <strong>Xia, Z.</strong>; Xie, L.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Predicting adolescents’ environmental action: From individual to national-level factors using an explainable machine learning approach.</strong>
+    <br><em>Journal of Environmental Management</em> 390, 126398 (2025).  
+    <span class="text-muted">Hu, B.; Gao, J.; Feng, Y.; <strong>Xia, Z.</strong>; Wang, K.; Geng, L.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Environmental education in low- and middle-income countries: A systematic review and meta-analysis.</strong>
+    <br><em>Journal of Environmental Psychology</em> 102613 (2025).  
+    <span class="text-muted">Hu, B.; Wang, C.; <strong>Xia, Z.</strong>; Lu, C.; Ju, X.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Trust in scientists and their role in society across 68 countries.</strong>
+    <br><em>Nature Human Behaviour</em> 9(4), 713–730 (2025).  
+    <span class="text-muted">Cologna, V.; Mede, N. G.; …; <strong>Xia, Z.</strong>; …; Metag, J.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Perceptions of science, science communication, and climate change attitudes in 68 countries – the TISP dataset.</strong>
+    <br><em>Scientific Data</em> 12(1), 114 (2025).  
+    <span class="text-muted">Mede, N. G.; Cologna, V.; …; <strong>Xia, Z.</strong>; …; Metag, J.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Measuring climate change perception in China using mental images: A nationwide open-ended survey.</strong>
+    <br><em>Risk Analysis</em> (2025).  
+    <span class="text-muted">Yang, J.; …; <strong>Xia, Z.</strong>; …; Bi, J.</span>
+  </li>
+</ul>
+
+---
+
+### 2024
+
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">
+    <strong>Reassessing the climate mitigation potential of Chinese ecological restoration: the undiscovered potential of urban areas.</strong>
+    <br><em>The Innovation Geoscience</em> (2024).  
+    <span class="text-muted">Xu, D.; Bai, T.; …; <strong>Xia, Z.</strong>; …; Cui, Y.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Factors determining reuse behavior: A meta-analysis.</strong>
+    <br><em>Cleaner and Responsible Consumption</em> 14, 100213 (2024). <span class="badge bg-secondary">Co-first</span>  
+    <span class="text-muted">Gu, Y.; <strong>Xia, Z.</strong>; Tian, X.; Xie, J.; Liu, Y.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Export stability and air pollution: evidence from 56 major exporting countries.</strong>
+    <br><em>Applied Economics Letters</em> 1–5 (2024).  
+    <span class="text-muted">Fan, J. C.; <strong>Xia, Z.</strong>; Yang, X.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Will the ‘government-court coordination’ of corporate bankruptcy disposal improve ESG performance? Evidence from China.</strong>
+    <br><em>Applied Economics Letters</em> 1–5 (2024).  
+    <span class="text-muted">Yan, H.; Li, Y.; Zhong, Y.; <strong>Xia, Z.</strong></span>
+  </li>
+  <li class="list-group-item">
+    <strong>Multinational dynamic steel cycle analysis reveals sequential decoupling between material use and economic growth.</strong>
+    <br><em>Ecological Economics</em> 217, 108092 (2024).  
+    <span class="text-muted">Yang, X.; Zhang, C.; …; <strong>Xia, Z.</strong>; …; Chen, W. Q.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Quantifying the Cooling Effect of Urban Greening Driven by Ecological Restoration Projects in China.</strong>
+    <br><em>Environmental Science & Technology</em> (2024).  
+    <span class="text-muted">Xu, D.; Bai, T.; …; <strong>Xia, Z.</strong>; …; Ciais, P.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Environmental impact and economic assessment of recycling lithium iron phosphate battery cathodes: Comparison of major processes in China.</strong>
+    <br><em>Resources, Conservation and Recycling</em> 203, 107449 (2024).  
+    <span class="text-muted">Tian, X.; Ma, Q.; Xie, J.; <strong>Xia, Z.</strong>; Liu, Y.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Transparent and open-source aluminum life cycle inventory dataset for China.</strong>
+    <br><em>Resources, Conservation and Recycling</em> 207, 107666 (2024).  
+    <span class="text-muted">Xie, J.; Feng, Y.; …; <strong>Xia, Z.</strong>; …; Li, N.</span>
+  </li>
+</ul>
+
+---
+
+### 2023
+
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">
+    <strong>Do Behavioral Interventions Enhance Waste Recycling Practices? Evidence from an extended meta-analysis.</strong>
+    <br><em>Journal of Cleaner Production</em> (2023).  
+    <span class="text-muted"><strong>Xia, Z.</strong>; Li, J.; Gu, Y.; …; Tian, X.; Zhang, C.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Green Illusions in Self-Reporting? Reassessing the Intention-Behavior Gap in Waste Recycling Behaviors.</strong>
+    <br><em>Waste Management</em> (2023). <span class="badge bg-secondary">Co-first</span>  
+    <span class="text-muted">Zhang, S.; <strong>Xia, Z.</strong>; Zhang, C.; Tian, X.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Nexus and synergy between the low-carbon economy and circular economy: A systematic review.</strong>
+    <br><em>Environmental Impact Assessment Review</em> (2023).  
+    <span class="text-muted">Xie, J.; <strong>Xia, Z.</strong>; …; Tian, X.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Design and Simulation of a Cross-regional Collaborative Recycling System for Secondary Resources: A Case of Lead-acid Batteries.</strong>
+    <br><em>Journal of Environmental Management</em> (2023).  
+    <span class="text-muted">Tian, X.; …; <strong>Xia, Z.</strong></span>
+  </li>
+</ul>
+
+---
+
+### 2022
+
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">
+    <strong>Digital Interventions for A Sustainable Future.</strong>
+    <br><em>Nature Reviews Psychology</em> (2022). <span class="badge bg-secondary">Commentary</span>  
+    <span class="text-muted"><strong>Xia, Z.</strong></span>
+  </li>
+  <li class="list-group-item">
+    <strong>Meta-analysis of Climate Change Experience and Climate Change Perception.</strong>
+    <br><em>Environmental Research Communication</em> (2022).  
+    <span class="text-muted"><strong>Xia, Z.</strong>; Ye, J.; Chou, Y.; …; Zhang, C.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>A meta-analytical review of intervention experiments to reduce food waste.</strong>
+    <br><em>Environmental Research Letters</em> (2022). <span class="badge bg-secondary">Co-first</span>  
+    <span class="text-muted">Tian, X.; <strong>Xia, Z.</strong>; …; Xu, M.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>A bibliometric analysis of climate change risk perception: Hot spots, trends and improvements.</strong>
+    <br><em>Frontiers in Environmental Science</em> (2022).  
+    <span class="text-muted">Fan, J.; Liu, G.; <strong>Xia, Z.</strong>; Cai, S.</span>
+  </li>
+</ul>
+
+---
+
+### 2021
+
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">
+    <strong>Understanding waste sorting behavior and key influencing factors through Internet of Things: Evidence from college student community.</strong>
+    <br><em>Resources, Conservation and Recycling</em> 174, 105775 (2021).  
+    <span class="text-muted"><strong>Xia, Z.</strong>; Zhang, S.; Tian, X.; Liu, Y.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Aiding pro-environmental behavior measurement by Internet of Things.</strong>
+    <br><em>Current Research in Behavioral Sciences</em> 2, 100055 (2021).  
+    <span class="text-muted"><strong>Xia, Z.</strong>; Liu, Y.</span>
+  </li>
+</ul>
+
+---
+
+### Consortia (selected)
+
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">
+    <strong>Academics are accurate at predicting the effectiveness of climate action interventions for outcomes with more recent scientific investigation.</strong>
+    <br><span class="text-muted">Consortium publication.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Extreme weather event attribution predicts climate policy support across the world.</strong>
+    <br><em>Nature Climate Change</em> (2025).  
+    <span class="text-muted">Cologna, V.; Meiler, S.; Kropf, C. M.; Lüthi, S.; Mede, N. G.; Bresch, D. N.; …; <strong>Xia, Z.</strong>; …; Linden, S. V. D.</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Public communication about science across 68 countries: Global evidence on information pathways and engagement.</strong>
+    <br><span class="text-muted">Consortium publication.</span>
+  </li>
+</ul>
+
 ---
 
 
-<!--Include academic icons or buttons-->
-{{< include /files/includes/_academic.qmd >}}
-
-Notes: \* corresponding author; <sup>GS</sup> graduate student advisee; <sup>VS</sup> visiting scholar; ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ESI [Highly Cited Paper](https://webofscience.help.clarivate.com/en-us/Content/esi-highly-cited-papers.html) (top 1%); ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} ESI [Hot Paper](https://webofscience.help.clarivate.com/en-us/Content/esi-hot-papers.html) (top 0.1%) 
-
-Total citations as of January 2025:
-
-- [Web of Science](https://www.webofscience.com): 100,000 (h-index = 100)   
-- [Google Scholar](https://scholar.google.com/citations?user=qc6CJjYAAAAJ&hl=en): 179,000 (h-index = 127, i10-index = 377) 
-
-## Selected Work
-
-Einstein, A., Podolsky, B., & Rosen, N. (1935). [Can quantum-mechanical description of physical reality be considered complete?](posts/paper-title/index.qmd). *Physical review*, 47(10), 777. \[[pdf](https://scholar.google.com/)\] \[[code and data](https://doi.org)\] ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1103/PhysRev.47.777" data-hide-no-mentions="true" class="altmetric-embed"></div>     
-
-
-<center><hr style="width:50%"></center>
-
-Einstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. *American Journal of Physics*, 33(5), 367. [[pdf](https://icg.isy.liu.se/en/phd-courses/quantum_foundations/references/Einstein1905b.pdf)] <span class="__dimensions_badge_embed__" data-doi="10.1038/s41560-023-01304-w" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1038/s41560-023-01304-w" data-hide-no-mentions="true" class="altmetric-embed"></div>
-
-
-
-<!--Include social share buttons-->
-
-{{< include /files/includes/_socialshare.qmd >}}
