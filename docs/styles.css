@@ -52,3 +52,107 @@
 .navbar-brand img {
   margin-right: .5rem;
 }
+
+
+/* =========================
+   Mobile-friendly navbar
+   ========================= */
+
+/* Responsive logo height: grows on large screens, shrinks on phones */
+.navbar-brand img,
+.navbar .navbar-brand img {
+  height: clamp(22px, 6.0vw, 42px);   /* ~22–42px depending on viewport */
+  max-height: 42px;
+  width: auto;
+}
+
+/* Add comfortable gap between logo and first nav item */
+.navbar .navbar-brand {
+  margin-right: 1rem;
+}
+
+/* Slightly tighter overall navbar padding so the bigger logo fits */
+.navbar {
+  padding-top: .35rem;
+  padding-bottom: .35rem;
+  min-height: 56px; /* keeps things balanced when the logo is taller */
+}
+
+/* Bigger tap targets for links inside the collapsed menu */
+.navbar-nav .nav-link {
+  padding: .6rem 1rem;
+}
+
+/* On small screens: hide long title text next to the logo to save space */
+@media (max-width: 480px) {
+  .navbar-brand .navbar-title { display: none; }
+  .navbar .navbar-brand { margin-right: .75rem; }
+}
+
+/* On medium screens: slightly smaller logo and tighter spacing */
+@media (max-width: 768px) {
+  .navbar-brand img { height: clamp(22px, 5.2vw, 36px); }
+  .navbar .navbar-brand { margin-right: .875rem; }
+}
+
+/* Prevent image squish and keep aspect ratio crisp */
+.navbar-brand img {
+  object-fit: contain;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Optional: make the burger button easier to tap */
+.navbar-toggler {
+  padding: .35rem .6rem;
+  border-radius: .5rem;
+}
+
+/* ===== Bigger, responsive navbar logo (wins over earlier rules) ===== */
+
+/* Make the logo clearly larger across devices */
+.navbar .navbar-brand > img {
+  height: clamp(48px, 12vw, 88px) !important;  /* never smaller than 48px; up to 88px on large screens */
+  max-height: 88px !important;
+  width: auto;
+  object-fit: contain;
+  image-rendering: -webkit-optimize-contrast;
+  flex: 0 0 auto;
+}
+
+/* On small phones, still keep it big but avoid overflow */
+@media (max-width: 480px) {
+  .navbar .navbar-brand > img {
+    height: clamp(44px, 14vw, 72px) !important; /* ~50px on 375px-wide phones */
+    max-height: 72px !important;
+  }
+}
+
+/* Keep brand area tidy and give space before first nav item */
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: .5rem;            /* space between logo and any brand text */
+  margin-right: 1.25rem; /* gap between logo and menu */
+}
+
+/* Tighten vertical padding so the taller logo fits without crowding */
+.navbar {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  min-height: 56px;
+}
+
+/* Make collapsed-menu items easy to tap */
+.navbar-nav .nav-link {
+  padding: .65rem 1rem;
+}
+
+/* Hide long site title near the logo on smaller screens to save space */
+@media (max-width: 992px) {
+  .navbar-brand .navbar-title { display: none; }
+}
+
+/* Optional: slightly larger gap on wide screens */
+@media (min-width: 1200px) {
+  .navbar .navbar-brand { margin-right: 2rem; }
+}
