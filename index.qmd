@@ -35,7 +35,7 @@ University of Cambridge.
 I study the **human and policy dimensions of climate change**, combining large-scale surveys,
 IoT and remote sensing for **actionable mitigation and adaptation**.
 
-- Climate perceptions & individual carbon footprints in China (MRP/MIRO; **China Climate Communication Initiative**).
+- Climate perceptions & individual carbon footprints in China (MRP/MIRO; [China Climate Communication Initiative](https://climcomm.netlify.app/)).
 - Behavioral interventions and IoT-enabled measurement for mitigation/adaptation.
 - Open and transparent science; cross-national datasets and policy relevance.
 
