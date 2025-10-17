@@ -17,9 +17,6 @@ title-block-banner: false
 - **Growing climate change risk concerns with rising regional disparities in China.** <span class="badge bg-light text-dark">npj Climate Action (2025)</span>  
   **Xia, Z.\***, Ye, J., Debnath, R., Dong, X., Xie, J., Xu, M., … & Liu, M.
 
-- **Evaluating carbon footprint calculators: a comprehensive assessment framework.** <span class="badge bg-light text-dark">Clean Technologies & Environmental Policy (2025)</span>  
-  **Xia, Z.\***, Liu, K., Li, J., Gu, Y., Hu, B., Zhong, Y., … & Lam, K. L.
-
 - **Promoting plant-based diet in China: testing health, environmental and animal-welfare messages.** <span class="badge bg-light text-dark">Sustainable Production & Consumption (2025)</span>  
   Shi, K., **Xia, Z.\***, Gu, H., & Nisa, C. <span class="badge bg-secondary">Co-first</span>
 
@@ -41,7 +38,7 @@ title-block-banner: false
   <li class="list-group-item">
     <strong>Growing climate change risk concerns with rising regional disparities in China.</strong>
     <br><em>npj Climate Action</em> 4(1), 78 (2025).  
-    <span class="text-muted">Xia, Z.*; Ye, J.; Debnath, R.; Dong, X.; Xie, J.; Xu, M.; …; Liu, M.</span>
+    <span class="text-muted"> <strong>Xia, Z.*</strong>; Ye, J.; Debnath, R.; Dong, X.; Xie, J.; Xu, M.; …; Liu, M.</span>
   </li>
   <li class="list-group-item">
     <strong>Evaluating carbon footprint calculators: a comprehensive assessment framework.</strong>
