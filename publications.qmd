@@ -36,6 +36,11 @@ title-block-banner: false
 
 <ul class="list-group list-group-flush">
   <li class="list-group-item">
+    <strong>IoT-based analysis reveals behavioral differences in public participation in low-value recyclables collection.</strong>
+    <br><em>Humanities and Social Sciences Communications</em> 12, 1713 (2025).  
+    <span class="text-muted">Tian, X.; Yuan, K.; Wen, H.; <strong>Xia, Z.</strong>; Peng, F.; Men, D.; Wei, G.; Qian, Y.; Liu, Y.</span>
+  </li>
+  <li class="list-group-item">
     <strong>Growing climate change risk concerns with rising regional disparities in China.</strong>
     <br><em>npj Climate Action</em> 4(1), 78 (2025).  
     <span class="text-muted"> <strong>Xia, Z.*</strong>; Ye, J.; Debnath, R.; Dong, X.; Xie, J.; Xu, M.; …; Liu, M.</span>
