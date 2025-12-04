@@ -1,5 +1,14 @@
 [
   {
+    "date": "2025-11-29",
+    "text": "🎉 Our paper *MATES: A tool for appraising the completeness with which a meta-analysis has been reported* is now published in Environment International.",
+    "url": "https://doi.org/10.1016/j.envint.2025.109935",
+    "links": [
+      { "text": "Read it here", "href": "https://doi.org/10.1016/j.envint.2025.109935" },
+      { "text": "Access the tool", "href": "https://kylemorrisonisshiny99.shinyapps.io/MATES_shiny/" }
+    ]
+  },
+  {
     "date": "2025-11-12",
     "text": "🎉 Our new open-access paper *IoT-based analysis reveals behavioral differences in public participation in low-value recyclables collection* is now published in Humanities & Social Sciences Communications.",
     "url": "https://www.nature.com/articles/s41599-025-05975-6",
