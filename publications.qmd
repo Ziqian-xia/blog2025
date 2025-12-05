@@ -20,6 +20,9 @@ title-block-banner: false
 - **Promoting plant-based diet in China: testing health, environmental and animal-welfare messages.** <span class="badge bg-light text-dark">Sustainable Production & Consumption (2025)</span>  
   Shi, K., **Xia, Z.\***, Gu, H., & Nisa, C. <span class="badge bg-secondary">Co-first</span>
 
+- **Digital Interventions for A Sustainable Future.** <span class="badge bg-light text-dark">Nature Reviews Psychology (2022)</span> 
+  **Xia, Z.\*** <span class="badge bg-secondary">Commentary</span>  
+  
 \* Lead/corresponding contribution where applicable.
 :::
 
