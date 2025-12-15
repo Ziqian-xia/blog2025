@@ -40,7 +40,7 @@ title-block-banner: false
 <ul class="list-group list-group-flush">
   <li class="list-group-item">
     <strong>Assessing Nudge Impact: A Comprehensive Second‐Order Meta‐Analysis.</strong>
-    <br><em>Journal of Behavioral Decision Making</em>, 38(5), e70053 (2025).
+    <br><em>Journal of Behavioral Decision Making</em>, 38(5), e70053 (2025). <span class="badge bg-secondary">Co-first</span>  
     <span class="text-muted">Hu, B.; <strong>Xia, Z.</strong>; Guo, Q.; Lu, C.; Constantino, S. M.; Ju, X.</span>
   </li>
   <li class="list-group-item">
