@@ -41,22 +41,22 @@ title-block-banner: false
 
   <li class="list-group-item">
     <strong>Who is lifting the green veil? Climate physical risks and supply chain spillovers of corporate carbon greenwashing.</strong>
-    <br><em>Technology in Society</em>, 85, 103203 (2026).
+    <br><em>Technology in Society</em>, 85, 103203 (2026).<br>
     <span class="text-muted">Zhong, Y.; Yan, H.; <strong>Xia, Z.</strong></span>
   </li>
   <li class="list-group-item">
     <strong>Assessing Nudge Impact: A Comprehensive Second‐Order Meta‐Analysis.</strong>
-    <br><em>Journal of Behavioral Decision Making</em>, 38(5), e70053 (2025). <span class="badge bg-secondary">Co-first</span>  
+    <br><em>Journal of Behavioral Decision Making</em>, 38(5), e70053 (2025). <span class="badge bg-secondary">Co-first</span>  <br>
     <span class="text-muted">Hu, B.; <strong>Xia, Z.</strong>; Guo, Q.; Lu, C.; Constantino, S. M.; Ju, X.</span>
   </li>
   <li class="list-group-item">
     <strong>MATES: A tool for appraising the completeness with which a meta-analysis has been reported.</strong>
-    <br><em>Environment International</em>, 109935 (2025).
+    <br><em>Environment International</em>, 109935 (2025).<br>
     <span class="text-muted">Morrison, K., Pottier, P., Pollo, P., ..., <strong>Xia, Z.</strong>, ... & Nakagawa, S.</span>
   </li>
   <li class="list-group-item">
     <strong>IoT-based analysis reveals behavioral differences in public participation in low-value recyclables collection.</strong>
-    <br><em>Humanities and Social Sciences Communications</em> 12, 1713 (2025).  
+    <br><em>Humanities and Social Sciences Communications</em> 12, 1713 (2025). <br> 
     <span class="text-muted">Tian, X.; Yuan, K.; Wen, H.; <strong>Xia, Z.</strong>; Peng, F.; Men, D.; Wei, G.; Qian, Y.; Liu, Y.</span>
   </li>
   <li class="list-group-item">
