@@ -385,10 +385,24 @@ https://badge.dimensions.ai/
     status.textContent = "Loading photos…";
     grid.parentNode.insertBefore(status, grid);
 
+    // Try common publish layouts: root (/files/...) and Netlify sites that publish /docs.
+    const candidateUrls = [
+      new URL("files/photos/photos.json", window.location.origin + "/").toString(),
+      new URL("docs/files/photos/photos.json", window.location.origin + "/").toString()
+    ];
+
     const fetchPhotos = async () => {
-      const res = await fetch("files/photos/photos.json", {cache: "no-cache"});
-      if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
-      return res.json();
+      let lastErr;
+      for (const url of candidateUrls) {
+        try {
+          const res = await fetch(url, { cache: "no-cache" });
+          if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
+          return await res.json();
+        } catch (err) {
+          lastErr = err;
+        }
+      }
+      throw lastErr || new Error("Unable to load photos.json");
     };
 
     const formatTitle = (p) => {
