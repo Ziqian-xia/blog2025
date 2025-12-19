@@ -1,4 +1,12 @@
-[
+[    {
+  "date": "2025-12-19",
+  "text": "📸 Updated the personal section with some photographs! Also planning to share mentoring notes I've learned.",
+  "url": "https://ziqian-xia.tech/personal-album",
+  "links": [
+    {"text": "Album","href": "https://ziqian-xia.tech/personal-album"},
+    {"text": "Mentoring notes","href": "https://ziqian-xia.tech/mentorship-notes"}
+  ]
+},
   {
   "date": "2025-12-16",
   "text": "🎉 Our paper *Who is lifting the green veil? Climate physical risks and supply chain spillovers of corporate carbon greenwashing* is now online in Technology in Society.",
