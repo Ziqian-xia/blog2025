@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - files/photos/**
 
 # Meta
 description-meta: "Personal academic website for Ziqian Xia"
