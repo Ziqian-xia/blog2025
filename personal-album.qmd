@@ -1,0 +1,265 @@
+---
+title: "Tracks of Light"
+page-layout: full
+description: "A personal photo album showcasing moments captured around the world."
+---
+
+<style>
+  :root {
+    --album-bg: linear-gradient(140deg, #f6f8ff 0%, #eef3ff 45%, #ffffff 100%);
+    --album-primary: #2f5cf5;
+    --album-ink: #253045;
+    --album-muted: #6a7486;
+  }
+
+  .album-hero {
+    background: var(--album-bg);
+    border: 1px solid rgba(47, 92, 245, 0.12);
+    border-radius: 18px;
+    padding: 1.35rem 1.6rem;
+    margin-bottom: 1.8rem;
+    box-shadow: 0 18px 52px rgba(18, 38, 63, 0.10);
+  }
+
+  .album-grid {
+    column-count: 4;
+    column-gap: 1rem;
+  }
+
+  @media (max-width: 1200px) { .album-grid { column-count: 3; } }
+  @media (max-width: 900px) { .album-grid { column-count: 2; } }
+  @media (max-width: 600px) { .album-grid { column-count: 1; } }
+
+  .album-card {
+    break-inside: avoid;
+    margin: 0 0 1rem;
+    background: #fff;
+    border-radius: 16px;
+    padding: 0.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 14px 38px rgba(18, 38, 63, 0.10);
+    transform: translateY(6px);
+    opacity: 0;
+    transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease, opacity 320ms ease;
+  }
+
+  .album-card.visible {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .album-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 42px rgba(18, 38, 63, 0.16);
+    border-color: rgba(47, 92, 245, 0.22);
+  }
+
+  .album-card img {
+    width: 100%;
+    height: auto;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 0.65rem;
+    filter: saturate(1.08);
+    transition: transform 180ms ease;
+  }
+
+  .album-card:hover img {
+    transform: scale(1.02);
+  }
+
+  .album-caption {
+    display: grid;
+    gap: 0.2rem;
+    color: var(--album-ink);
+  }
+
+  .album-caption strong {
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+  }
+
+  .album-meta {
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 0.82rem;
+    color: var(--album-muted);
+  }
+
+  .album-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem 0.55rem;
+    border-radius: 999px;
+    background: rgba(47, 92, 245, 0.08);
+    color: #20438a;
+    font-size: 0.82rem;
+  }
+
+  .album-chip i {
+    font-style: normal;
+  }
+
+  .album-title {
+    font-size: 0.9rem;
+    color: #1f4cb5;
+  }
+
+  /* Lightbox */
+  .album-lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(12, 18, 28, 0.88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 180ms ease;
+  }
+
+  .album-lightbox.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .album-lightbox img {
+    max-width: min(88vw, 1100px);
+    max-height: 82vh;
+    border-radius: 14px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  }
+
+  .album-lightbox .album-close {
+    position: absolute;
+    top: 18px;
+    right: 24px;
+    font-size: 1.1rem;
+    color: #f8f9fb;
+    cursor: pointer;
+    padding: 0.35rem 0.6rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+</style>
+
+::: {.album-hero}
+Life is an ocean, peaks and streams appear and fade, and it is all but a moment.
+人生海海，山山而川，不过尔尔
+:::
+
+<div id="album-grid" class="album-grid" aria-live="polite"></div>
+
+<script>
+  (async () => {
+    const grid = document.getElementById("album-grid");
+    if (!grid) return;
+
+    const status = document.createElement("div");
+    status.style.margin = "0.5rem 0 1rem";
+    status.style.color = "#5d6a7b";
+    status.textContent = "Loading photos…";
+    grid.parentNode.insertBefore(status, grid);
+
+    const fetchPhotos = async () => {
+      const res = await fetch("files/photos/photos.json", {cache: "no-cache"});
+      if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
+      return res.json();
+    };
+
+    const formatTitle = (p) => {
+      const bits = [];
+      if (p.year) bits.push(p.year);
+      if (p.place) bits.push(p.place);
+      if (p.title) bits.push(p.title);
+      return bits.join(" • ");
+    };
+
+    let photos = [];
+    try {
+      photos = (await fetchPhotos()).sort((a, b) => {
+        // Sort by year desc (string ok with YYYY), then place asc, then filename.
+        if (a.year !== b.year) return b.year.localeCompare(a.year);
+        if (a.place !== b.place) return a.place.localeCompare(b.place);
+        return a.file.localeCompare(b.file);
+      });
+    } catch (err) {
+      console.error("Photo load error:", err);
+      status.textContent = "无法加载照片清单（photos.json）。";
+      return;
+    }
+
+    if (!photos.length) {
+      status.textContent = "暂无照片，稍后再试。";
+      return;
+    }
+
+    // Add cards to the grid
+    photos.forEach((p, idx) => {
+      const card = document.createElement("article");
+      card.className = "album-card";
+      card.style.transitionDelay = `${Math.min(idx * 15, 180)}ms`;
+
+      const img = document.createElement("img");
+      img.loading = "lazy";
+      img.alt = formatTitle(p) || "Photo";
+      img.src = `files/photos/${encodeURIComponent(p.file)}`;
+
+      const caption = document.createElement("div");
+      caption.className = "album-caption";
+      caption.innerHTML = `
+        <strong>${p.place || "Somewhere"}</strong>
+        <div class="album-meta">
+          <span class="album-chip"><i>📍</i>${p.place || "Unknown"}</span>
+          <span class="album-chip"><i>📅</i>${p.year || "----"}</span>
+        </div>
+        <span class="album-title">${p.title || ""}</span>
+      `;
+
+      card.append(img, caption);
+      grid.appendChild(card);
+    });
+
+    // Reveal on scroll
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+    document.querySelectorAll(".album-card").forEach((c) => observer.observe(c));
+
+    // Simple lightbox
+    const lightbox = document.createElement("div");
+    lightbox.className = "album-lightbox";
+    lightbox.innerHTML = `<button class="album-close" aria-label="Close">Close ✕</button><img alt="">`;
+    document.body.appendChild(lightbox);
+
+    const lbImg = lightbox.querySelector("img");
+    const closeLb = () => lightbox.classList.remove("visible");
+
+    lightbox.addEventListener("click", (e) => {
+      if (e.target === lightbox || e.target.classList.contains("album-close")) closeLb();
+    });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLb(); });
+
+    document.querySelectorAll(".album-card img").forEach((img) => {
+      img.addEventListener("click", () => {
+        lbImg.src = img.src;
+        lbImg.alt = img.alt;
+        lightbox.classList.add("visible");
+      });
+    });
+  })();
+</script>

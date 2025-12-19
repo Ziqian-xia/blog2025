@@ -1,0 +1,17 @@
+---
+title: "Mentorship Notes"
+page-layout: article
+description: "Reflections and quotes gathered during mentorship."
+---
+
+I jot down the reminders that shape how I work and learn from mentorship sessions.
+
+> “Always knowing your variable before you do analysis.”
+>
+> “Do not worry about senior, just do good work.”
+>
+> “Do what you good at, do what you love.”
+
+— Jon Krosnick
+
+More notes to come as the mentorship continues.

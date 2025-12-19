@@ -24,10 +24,16 @@ website:
         menu:
           - text: Publications
             href: publications.qmd
+      - text: Resources
+        menu:
+          - text: Software
+            href: Software.qmd
+          - text: Mentorship Notes
+            href: mentorship-notes.qmd
+      - text: Personal
+        href: personal-album.qmd
       - text: News
         href: news.qmd 
-      - text: Software
-        href: Software.qmd                     # <- new simple one-line news page
     right:
       - text: CV
         href: files/CV-Ziqian.pdf

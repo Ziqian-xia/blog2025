@@ -147,13 +147,28 @@ https://badge.dimensions.ai/
   </li>  
     </ul>
   </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="./Software.html">
+ <span class="dropdown-text">Software</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./mentorship-notes.html">
+ <span class="dropdown-text">Mentorship Notes</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./personal-album.html"> 
+<span class="menu-text">Personal</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./news.html"> 
 <span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Software.html"> 
-<span class="menu-text">Software</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -225,9 +240,37 @@ https://badge.dimensions.ai/
 <li>Open and transparent science; cross-national datasets and policy relevance.</li>
 </ul>
 <p>Prior to Stanford, I trained with <a href="https://sem.tongji.edu.cn/semen/12413.html">Chao Zhang’s Group</a> at Tongji University, China, <a href="http://sem.ncu.edu.cn/szdw/gccrc/gccrcjxssqjhljrc/799a668ea7be430c9edb199b04109392.htm">Xi Tian’s Group</a> at Nanchang University, China, and the <a href="https://www.digitaltransformation.rw.fau.eu/">Bits to Energy Lab</a> at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Germany.</p>
+<div class="mt-3">
+<p><button id="pronounce-btn" class="btn btn-outline-secondary btn-sm d-inline-flex align-items-center" type="button" aria-label="Play the pronunciation for Ziqian Xia"> <i class="bi bi-volume-up me-2" aria-hidden="true"></i> <span class="pronounce-label">Hear my name</span> </button> <audio id="pronounce-audio" preload="none"> <source src="files/audio/pronounce-ziqian.m4a" type="audio/mp4"> </audio></p>
+</div>
 </div></div>
 </div>
 
+<script>
+  (() => {
+    const btn = document.getElementById("pronounce-btn");
+    const audio = document.getElementById("pronounce-audio");
+    if (!btn || !audio) return;
+
+    const label = btn.querySelector(".pronounce-label");
+    const defaultText = label ? label.textContent : "Hear my name";
+    const setLabel = (text) => {
+      if (label) label.textContent = text;
+    };
+
+    btn.addEventListener("click", () => {
+      audio.currentTime = 0;
+      audio.play().catch(err => console.error("Pronunciation audio error:", err));
+    });
+
+    audio.addEventListener("playing", () => setLabel("Playing..."));
+    audio.addEventListener("ended", () => setLabel(defaultText));
+    audio.addEventListener("pause", () => {
+      if (audio.currentTime === 0) return;
+      setLabel(defaultText);
+    });
+  })();
+</script>
 <section id="news-latest" class="level2">
 <h2 data-anchor-id="news-latest">News (latest)</h2>
 <div id="news-latest" class="list-group mb-2">
