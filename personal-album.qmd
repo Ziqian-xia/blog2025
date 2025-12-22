@@ -150,8 +150,10 @@ description: "A personal photo album showcasing moments captured around the worl
 </style>
 
 ::: {.album-hero}
-Life is an ocean, peaks and streams appear and fade, and it is all but a moment.
-人生海海，山山而川，不过尔尔
+
+Storm or shine, it is the Grand Design.
+
+天气就是天意。
 :::
 
 <div id="album-grid" class="album-grid" aria-live="polite"></div>
