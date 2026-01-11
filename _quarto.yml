@@ -13,7 +13,7 @@ website:
   image: "https://quarto.org/quarto.png"
   description: "Personal academic website for Ziqian Xia"
   favicon: Stanford_Cardinal_logo.svg  
-  google-analytics: "G-2BKT478GNZ"
+  google-analytics: "G-858CGRGPJ9"
 
   navbar:
     background: light 
