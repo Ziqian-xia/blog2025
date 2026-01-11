@@ -6,7 +6,6 @@ title-block-banner: false
 
 Looking forward to connecting—whether about **climate communication**, **behavior change**, or **AI for sustainability**.
 
-<!-- ===== Quick actions ===== -->
 <div class="d-flex flex-wrap gap-2 mb-4">
   <a class="btn btn-primary btn-sm" href="mailto:ziqianx@stanford.edu">Email (Stanford)</a>
   <a class="btn btn-outline-secondary btn-sm" href="mailto:Ziqian.research@gmail.com">Email (Gmail)</a>
@@ -26,43 +25,29 @@ Please note that I often send emails outside of standard working hours - please 
 - **Email (primary):** <a href="mailto:ziqianx@stanford.edu">ziqianx@stanford.edu</a>  
 - **Email (alt):** <a href="mailto:Ziqian.research@gmail.com">Ziqian.research@gmail.com</a>  
 
-**Social**  
-- X (Twitter): <a href="https://twitter.com/ziqian_xia" target="_blank">ziqian_xia</a>  
+**Social** - X (Twitter): <a href="https://twitter.com/ziqian_xia" target="_blank">ziqian_xia</a>  
 - Bluesky: <a href="https://bsky.app/profile/ziqianxia.bsky.social" target="_blank">ziqianxia.bsky.social</a>  
 - LinkedIn: <a href="https://www.linkedin.com/in/ziqian-xia-8236a5183/" target="_blank">linkedin.com/in/ziqian-xia-8236a5183/</a>  
 - GitHub: <a href="https://github.com/ziqian-xia" target="_blank">ziqian-xia</a>  
 
 ## Office
 
-**ROOM 368**  
-Jerry Yang and Akiko Yamazaki Environment & Energy Building (**Y2E2**)  
+**ROOM 368** Jerry Yang and Akiko Yamazaki Environment & Energy Building (**Y2E2**)  
 **473 Via Ortega, Stanford, CA 94305, USA**
 
 <div class="mb-2">
   <a class="btn btn-sm btn-outline-primary" target="_blank"
-     href="https://www.google.com/maps/search/?api=1&query=Y2E2+473+Via+Ortega+Stanford+CA+94305">
+     href="https://goo.gl/maps/YOUR_REAL_LINK_HERE">
      Open in Google Maps
   </a>
 </div>
 
-<!-- Responsive map embed -->
-<div class="ratio ratio-16x9 mb-7">
-  <iframe
-    src="https://www.google.com/maps?q=Jerry+Yang+and+Akiko+Yamazaki+Environment+and+Energy+Building+Y2E2,+473+Via+Ortega,+Stanford,+CA+94305&output=embed"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-    style="border:0;"
-    allowfullscreen>
-  </iframe>
+<div class="ratio ratio-16x9 mb-2">
+<iframe src="https://www.google.com/maps?q=Jerry+Yang+and+Akiko+Yamazaki+Environment+and+Energy+Building+Y2E2,+473+Via+Ortega,+Stanford,+CA+94305&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0;" allowfullscreen></iframe>
 </div>
 
-<!-- Optional: OpenStreetMap fallback (commented out)
-<div class="ratio ratio-16x9 mb-4">
-  <iframe
-    src="https://www.openstreetmap.org/export/embed.html?bbox=-122.1767%2C37.4274%2C-122.1667%2C37.4329&layer=mapnik&marker=37.4302%2C-122.1717"
-    style="border:0;"
-    loading="lazy">
-  </iframe>
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; margin-top: 10px;">
+<div style="width: 200px;">
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=QFhwPGirBc6uvsFkB8w3GR-2nh_gguxs66EJg7uCil4&cl=ffffff&w=a"></script>
 </div>
--->
-
+</div>
