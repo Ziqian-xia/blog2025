@@ -36,7 +36,7 @@ title-block-banner: false
 
 ---
 
-### 2025
+### 2026
 
 <ul class="list-group list-group-flush">
   <li class="list-group-item">
@@ -49,6 +49,9 @@ title-block-banner: false
     <br><em>Technology in Society</em>, 85, 103203 (2026).<br>
     <span class="text-muted">Zhong, Y.; Yan, H.; <strong>Xia, Z.</strong></span>
   </li>
+
+### 2025
+<ul class="list-group list-group-flush">
   <li class="list-group-item">
     <strong>Assessing Nudge Impact: A Comprehensive Second‐Order Meta‐Analysis.</strong>
     <br><em>Journal of Behavioral Decision Making</em>, 38(5), e70053 (2025). <span class="badge bg-secondary">Co-first</span>  <br>
