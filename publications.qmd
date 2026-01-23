@@ -39,7 +39,11 @@ title-block-banner: false
 ### 2025
 
 <ul class="list-group list-group-flush">
-
+  <li class="list-group-item">
+    <strong>Comparative assessment of economic and environmental impacts across eight second-use scenarios for retired lithium iron phosphate batteries in China.</strong>
+    <br><em>Environmental Impact Assessment Review</em>, 119, 108347 (2026).<br>
+    <span class="text-muted">Tian, X.; ..., <strong>Xia, Z.</strong>; ... Liu, Y.</span>
+  </li>
   <li class="list-group-item">
     <strong>Who is lifting the green veil? Climate physical risks and supply chain spillovers of corporate carbon greenwashing.</strong>
     <br><em>Technology in Society</em>, 85, 103203 (2026).<br>
