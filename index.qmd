@@ -37,7 +37,7 @@ IoT and remote sensing for **actionable mitigation and adaptation**.
 - Research synthesis, open and transparent science, and policy-relevant cross-national evidence.
 - Climate communication in China ([China Climate Communication Initiative](https://climcomm.netlify.app/)).
 
-Prior to Stanford, I trained at the Cambridge Collective Intelligence & Design Group ([CamCID](https://camcid.github.io/)), University of Cambridge, [Chao Zhang’s Group](https://sem.tongji.edu.cn/semen/12413.html) at Tongji University, China, [Xi Tian’s Group](https://sem.ncu.edu.cn/english/info/1441/3691.htm) at Nanchang University, China, and the [Bits to Energy Lab](https://www.digitaltransformation.rw.fau.eu/) at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Germany.
+Prior to Stanford, I trained at the Cambridge Collective Intelligence & Design Group ([CamCID](https://camcid.github.io/)) at University of Cambridge, [Chao Zhang’s Group](https://sem.tongji.edu.cn/semen/12413.html) at Tongji University, China, [Xi Tian’s Group](https://sem.ncu.edu.cn/english/info/1441/3691.htm) at Nanchang University, China, and the [Bits to Energy Lab](https://www.digitaltransformation.rw.fau.eu/) at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Germany.
 
 <div class="mt-3">
   <button id="pronounce-btn" class="btn btn-outline-secondary btn-sm d-inline-flex align-items-center" type="button" aria-label="Play the pronunciation for Ziqian Xia">
