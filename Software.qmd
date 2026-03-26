@@ -13,11 +13,13 @@ This page lists software and packages I help develop and maintain.
   <https://jianing-d.github.io/SECFC/>
 
 ## Python packages
-- 📦️ **LLMeta** — Large language models for automated meta-analysis  
+- 📦️ **AutoSR** — Streamlit app for automated systematic reviews
+  <https://autosr.streamlit.app/>
+- 📦️ **LLMeta** — Large language models for automated meta-analysis
   <https://github.com/yebarryallen/LLMeta>
-- 📦️ **LLMscreen** — Large language models for automated paper screening  
+- 📦️ **LLMscreen** — Large language models for automated paper screening
   <https://github.com/yebarryallen/LLMscreen>
-- 📦️ **SECFC** — Survey Embedded Carbon Footprint Calculator  
+- 📦️ **SECFC** — Survey Embedded Carbon Footprint Calculator
   <https://github.com/yebarryallen/SECFC/>
 
 *If you use any of these tools, I’d love to hear your feedback or feature requests.*

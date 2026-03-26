@@ -1,4 +1,15 @@
-[    
+[
+{
+  "date": "2026-03-25",
+  "text": "🔬 Built AutoSR, a Streamlit app for automated systematic reviews!",
+  "url": "https://autosr.streamlit.app/",
+  "links": [
+    {
+      "text": "Try it out",
+      "href": "https://autosr.streamlit.app/"
+    }
+  ]
+},
 {
   "date": "2026-01-23",
   "text": "🎉 Our paper *Comparative assessment of economic and environmental impacts across eight second-use scenarios for retired lithium iron phosphate batteries in China* is now online in Environmental Impact Assessment Review.",
