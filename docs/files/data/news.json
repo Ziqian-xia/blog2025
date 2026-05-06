@@ -1,4 +1,54 @@
 [
+{
+  "date": "2026-03-25",
+  "text": "🔎 AutoSR is now Winnow: a free literature search tool using systematic review methods across OpenAlex, PubMed, and Scopus.",
+  "url": "https://winnow.streamlit.app/",
+  "links": [
+    {
+      "text": "Try it out",
+      "href": "https://winnow.streamlit.app/"
+    }
+  ]
+},
+{
+  "date": "2026-01-23",
+  "text": "🎉 Our paper *Comparative assessment of economic and environmental impacts across eight second-use scenarios for retired lithium iron phosphate batteries in China* is now online in Environmental Impact Assessment Review.",
+  "url": "https://www.sciencedirect.com/science/article/pii/S0195925526000211",
+  "links": [
+    {
+      "text": "Read it here",
+      "href": "https://www.sciencedirect.com/science/article/pii/S0195925526000211"
+    }
+  ]
+},
+{
+  "date": "2025-12-19",
+  "text": "📸 Updated the personal section with some photographs! Also planning to share mentoring notes I've learned.",
+  "url": "https://ziqian-xia.tech/personal-album",
+  "links": [
+    {"text": "Album","href": "https://ziqian-xia.tech/personal-album"},
+    {"text": "Mentoring notes","href": "https://ziqian-xia.tech/mentorship-notes"}
+  ]
+},
+  {
+  "date": "2025-12-16",
+  "text": "🎉 Our paper *Who is lifting the green veil? Climate physical risks and supply chain spillovers of corporate carbon greenwashing* is now online in Technology in Society.",
+  "url": "https://doi.org/10.1016/j.techsoc.2025.103203",
+  "links": [
+    {
+      "text": "Read it here",
+      "href": "https://doi.org/10.1016/j.techsoc.2025.103203"
+    }
+  ]
+},
+    {
+    "date": "2025-12-05",
+    "text": "🎉 Our new paper *Assessing Nudge Impact: A Comprehensive Second‐Order Meta‐Analysis* is now published in the Journal of Behavioral Decision Making.",
+    "url": "https://doi.org/10.1002/bdm.70053",
+    "links": [
+      { "text": "Read it here", "href": "https://onlinelibrary.wiley.com/doi/10.1002/bdm.70053" }
+    ]
+  },
   {
     "date": "2025-11-29",
     "text": "🎉 Our paper *MATES: A tool for appraising the completeness with which a meta-analysis has been reported* is now published in Environment International.",

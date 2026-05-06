@@ -1,12 +1,12 @@
 [
 {
   "date": "2026-03-25",
-  "text": "🔬 Built AutoSR, a Streamlit app for automated systematic reviews!",
-  "url": "https://autosr.streamlit.app/",
+  "text": "🔎 AutoSR is now Winnow: a free literature search tool using systematic review methods across OpenAlex, PubMed, and Scopus.",
+  "url": "https://winnow.streamlit.app/",
   "links": [
     {
       "text": "Try it out",
-      "href": "https://autosr.streamlit.app/"
+      "href": "https://winnow.streamlit.app/"
     }
   ]
 },
@@ -20,7 +20,7 @@
       "href": "https://www.sciencedirect.com/science/article/pii/S0195925526000211"
     }
   ]
-},  
+},
 {
   "date": "2025-12-19",
   "text": "📸 Updated the personal section with some photographs! Also planning to share mentoring notes I've learned.",
