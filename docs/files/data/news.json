@@ -1,5 +1,16 @@
 [
 {
+  "date": "2026-04-29",
+  "text": "🎉 Our review article *Gradient transfer of global solid waste trade: theories, facts and implications* is now online in *Engineering Environment*.",
+  "url": "https://journal.hep.com.cn/fese/EN/10.1007/s11783-026-2207-8",
+  "links": [
+    {
+      "text": "Read it here",
+      "href": "https://journal.hep.com.cn/fese/EN/10.1007/s11783-026-2207-8"
+    }
+  ]
+},
+{
   "date": "2026-03-25",
   "text": "🔎 AutoSR is now Winnow: a free literature search tool using systematic review methods across OpenAlex, PubMed, and Scopus.",
   "url": "https://winnow.streamlit.app/",
